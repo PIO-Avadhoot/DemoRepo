@@ -1,4 +1,6 @@
      **FREE
+        // Author - Programmers.io
+        // Date - 2028.08.27
        //File declarations
        dcl-f empdtl2 disk usage(*update:*output)keyed;
        dcl-s empid zoned(5) inz(345);
