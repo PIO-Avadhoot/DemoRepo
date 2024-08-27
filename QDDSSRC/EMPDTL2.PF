@@ -1,0 +1,6 @@
+                R EMPDTLR
+                  EMPID          5S         COLHDG('EMPLYEE ID')
+                  EMPNAME       20A         COLHDG('EMPLOYEE NAME')
+                  EMPDEPT       20A         COLHDG('EMPLOYEE DEPARTMENT')
+                  EMPSALARY      8S         COLHDG('EMPLOYEE SALARY')
+                K EMPID

@@ -1,0 +1,4 @@
+                R EMPDTLR                   PFILE(ARPIT/EMPDTL)
+                K EMPID
+                O EMPID                     CMP(GT 145)
+

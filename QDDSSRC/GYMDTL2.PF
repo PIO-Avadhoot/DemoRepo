@@ -1,0 +1,7 @@
+                R GYMDTLR
+                  AID            5S         COLHDG('ATHLETE ID')
+                  ANAME         20A         COLHDG('NAME_OF_ATHLETE')
+                  AFEES          5S         COLHDG('GYM FEES')
+                  AGENDER       13A         COLHDG('ATHLETE_GENDER')
+                  DOJ           20A         COLHDG('DATE_OF_JOINING')
+                K AID

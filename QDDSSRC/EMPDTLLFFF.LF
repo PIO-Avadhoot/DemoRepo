@@ -1,0 +1,5 @@
+                R EMPDTLR                   PFILE(ARPIT/EMPDTL)
+                K EMPID
+
+                S EMPSALARY                 CMP(LT 50000)
+                O EMPDEPT                   CMP(EQ 'IBMI')
