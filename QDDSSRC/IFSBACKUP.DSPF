@@ -1,0 +1,38 @@
+     A*%%TS  SD  20230818  033521  RAVISANKAR  REL-V7R3M0  5770-WDS
+     A*----------------------------------------------------------
+     A*               TAKE BACKUP OF THE SOURCES
+     A*
+     A*   File......: IFSBACKUPD
+     A*   Purpose...: A Simple screen to backup the sources to IFS.
+     A*   Notes.....: Source Files names are assumed as default ones.
+     A*   Written By: Ravisankar Pandian
+     A*   Company...: Programmers.IO
+     A*   Date......: 04-08-2023
+     A*----------------------------------------------------------
+     A*%%EC
+     A                                      DSPSIZ(24 80 *DS3)
+     A                                      INDARA
+     A          R IFSBACKUPR
+     A*%%TS  SD  20230818  033521  RAVISANKAR  REL-V7R3M0  5770-WDS
+     A                                      CF05(05 'Refresh')
+     A                                      CF03(03 'Exit')
+     A                                  1  2USER
+     A            PGMNAMED      10A  O  2  2
+     A                                  1 20'Utility to Backup the sources to I-
+     A                                      FS folder'
+     A                                      COLOR(BLU)
+     A                                  1 72DATE
+     A                                      EDTCDE(Y)
+     A                                  2 72TIME
+     A                                 24  2'F3=Exit F5=Refresh'
+     A                                      COLOR(BLU)
+     A            ERRMSGD       79A  O 21  2COLOR(WHT)
+     A                                  5  2'Enter the library name that'
+     A                                      COLOR(BLU)
+     A            LIBNAMED      10A  B  6 32
+     A  30                                  DSPATR(RI)
+     A  30                                  DSPATR(PC)
+     A                                  6  2'needs to be backed up.......:'
+     A                                      COLOR(BLU)
+     A            ERRMSG2       79   O 22  2COLOR(WHT)
+
